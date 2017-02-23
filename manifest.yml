@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: platform
+  host: platform
+  disk_quota: 1024M
+  services:
+  - PkTwilioConv-cloudantNoSQLDB
+  - PkTwilioConv-iotf-service
+  - Lan-translator service 2
+  - Twilio-NoteToSelf
+  - platform-cloudantNoSQLDB
